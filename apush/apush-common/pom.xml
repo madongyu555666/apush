@@ -9,16 +9,16 @@
   </parent>
   <artifactId>apush-common</artifactId>
   <name>apush-common</name>
+  <description>apush消息推送系统基础模块</description>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+  
+   <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>apush-tools</artifactId>
+        </dependency>
+    </dependencies>
 </project>

@@ -10,15 +10,14 @@
   <artifactId>apush-monitor</artifactId>
   <name>apush-monitor</name>
   <url>http://maven.apache.org</url>
+  <description>apush的监控模块</description>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>apush-tools</artifactId>
+        </dependency>
   </dependencies>
 </project>
